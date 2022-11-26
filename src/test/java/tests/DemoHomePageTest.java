@@ -29,6 +29,8 @@ public class DemoHomePageTest implements Urls {
             System.out.println(myAccountColumn.headerElem().getText());
             System.out.println(followUsColumn.headerElem().getText());
 
+            System.out.println(informationColumn.linkElem().isEmpty());
+
             //Debug purpose only
             Thread.sleep(2000);
 
